@@ -1,19 +1,35 @@
-# Rock Paper Scissors
+# Day 1: Rock Paper Scissors & Guess the Number  
 
-import random
+1️⃣ Rock Paper Scissors Game  
+A simple Python game where the user plays against the computer. The program randomly selects **Rock, Paper, or Scissors**, and the user tries to beat it.  
 
-number = random.randint( 1,100)
-# we can assign the condition for a number is 1 to 100
-# RANDINT can generate the number 1 to 100
-print("Guess the number between 1 to 100")
+📜 How It Works:
+1. The user selects "Rock, Paper, or Scissors".
+2. The computer makes a "random choice".
+3. The program determines the winner.
+4. The user can "play again or exit".  
 
-while True:
-    guess = int(input("Enter your guess:"))
-    if guess < number :
-        print("Too low!")
-    elif guess > number :
-        print("Too high!")
+🛠️ Technologies Used:
+- Python
+- 'random' module  
 
-    else:
-        print("Congratulations! You guessed it...")
-        break
+Code File: [python stone paper.py] 
+
+--- * --- * --- * --- * --- * --- * --- *
+
+2️⃣ Guess the Number Game  
+A number guessing game where the user must guess a random number within a given range.  
+
+📜 How It Works:
+1. The computer "chooses a random number" between 1 and 100.
+2. The user inputs a guess.
+3. The program provides hints:  
+    🔼 "Too High"  
+    🔽 "Too Low"  
+4. The game continues until the user "guesses the correct number".  
+
+🛠️ Technologies Used:
+- Python
+- 'random' module  
+
+Code File:[python guess the number.py]
