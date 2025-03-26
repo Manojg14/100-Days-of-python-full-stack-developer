@@ -1,1 +1,2 @@
-# 100-Days-of-python-full-stack-developer
+This repository contains my daily coding projects for 
+# 100DaysOfPythonFullStack 
